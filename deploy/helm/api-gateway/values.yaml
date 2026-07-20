@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: api-gateway
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources: {}
